@@ -1,0 +1,16 @@
+body{
+    border: black 2px solid;
+    margin: 15% 25%;
+}
+
+.widthChanger{
+    width: 38%;
+}
+
+.noborder{
+    background: white;
+    border: none;
+}
+.textenlarger{
+    font-size: larger;
+}

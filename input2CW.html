@@ -1,0 +1,68 @@
+<!--Duplicate the form depicted in the included image. Note the following:-->
+
+<!--* Use placeholders where shown-->
+<!--* Make First and Last name required, as well as checkbox for agreeing to the terms-->
+<!--* Use the proper 'type' field for ```email```, ```password```, and ```birthday```-->
+<!--* Style as close to the example as you can but feel free to add additional styling (as it is quite the boring form...)-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="input2.css">
+</head>
+<body>
+
+<form action="">
+    <fieldset class="noborder">
+        <legend class="textenlarger"><h1><strong>Register</strong></h1></legend>
+        <label>First Name:
+            <input class="widthChanger" type="text" id="firstname" placeholder="John" required>
+        </label>
+        <label>Last Name:
+            <input class="widthChanger" type="text" id="lastname" placeholder="Smith" required>
+        </label>
+    </fieldset>
+
+    <fieldset class="noborder">
+        <label>Male
+            <input type="radio" name="gender">
+        </label>
+        <label>Female
+            <input type="radio" name="gender">
+        </label>
+        <label>Other
+            <input type="radio" name="gender">
+        </label>
+    </fieldset>
+
+    <fieldset class="noborder">
+        <label>Email:
+            <input class="widthChanger" type="email" id="email" placeholder="your email">
+        </label>
+        <label>Password:
+            <input class="widthChanger" type="password" id="password" placeholder="your password">
+        </label>
+    </fieldset>
+    
+    <fieldset class="noborder">
+        <label>Birthday:
+            <input type="date" name="birthday">
+        </label>
+    </fieldset>
+
+    <fieldset class="noborder">
+        <label>I agree to the terms and conditions
+            <input type="radio" id="terms" required>
+        </label>
+    </fieldset>
+
+    <fieldset class="noborder">
+            <input type="submit" name="submit">
+    </fieldset>
+
+</form>
+
+</body>
+</html>
